@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REALOTRS сайт агенства нерухомості</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <script src="JS/scripts.js"></script>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Real Estate Agency Logo" class="logo-image">
+        </div>
+        <nav class="horizontal-menu">
+            <ul>
+                <li><a href="#home">Домашня сторінка</a></li>
+                <li><a href="#about-us">Про нас</a></li>
+                <li class="dropdown">
+                    <a href="#objects">Об'єкти</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="catalogue/apartaments.html">Квартири</a></li>
+                        <li><a href="catalogue/house.html">Будинки</a></li>
+                        <li><a href="catalogue/rent.html">Оренда нерухомості</a></li>
+                        <li><a href="catalogue/commercial.html">Комерційна нерухомість</a></li>
+                        <li><a href="catalogue/land.html">Земельні ділянки</a></li>
+                        <li><a href="catalogue/new.html">Новобудови</a></li>
+                    </ul>
+                </li>
+                <li><a href="#reviews">Відгуки</a></li>
+                <li><a href="#blog-carousel">Блог</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="#footer">Зв’язатися з нами</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Секція Home -->
+        <section id="home">
+            <div class="video-background">
+                <video autoplay loop muted playsinline preload="auto" controls>
+                    <source src="images/realtors-intro1.mp4" type="video/mp4">
+                    Ваш браузер не підтримує відео тег.
+                </video>
+            </div>
+            <div class="home-content">
+                <div class="home-text">
+                    <h2>Ласкаво просимо до агентства "REALTORS"!</h2>
+                    <p>У агентстві "Realtors" ми допоможемо вам знайти ідеальний дім або квартиру. Наші експерти нададуть вам кваліфіковану допомогу у виборі нерухомості та оформленні угод. Ми працюємо з найкращими об'єктами, забезпечуючи високий рівень сервісу та підтримки на кожному етапі.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секція About -->
+        <section id="about-us">
+            <h2>Про нас</h2>
+            <div class="about-us-content">
+                <div class="about-image">
+                    <img src="images/team-photo.jpg" alt="Команда агентства">
+                </div>
+                <div class="about-text">
+                    <p>Ми — команда професіоналів, яка завжди прагне забезпечити найкращий сервіс і допомогу в кожному аспекті вашого життя. Завдяки нашому досвіду, ви можете бути впевнені, що знайдете ідеальне місце для життя. Дізнайтеся більше про нашу історію та підхід до роботи.</p>
+                    <a href="about.html" class="btn">Дізнатися більше</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="objects">
+            <h2 align ="center">Наші пропозиції</h2>
+            <div class="services-container">
+                <div class="service-item">
+                    <img src="images/apartment.jpg" alt="Квартири для продажу">
+                    <h3>Квартири для продажу</h3>
+                    <a href="properties/apartments.html" class="btn">Детальніше</a>
+                </div>
+                <div class="service-item">
+                    <img src="images/house.jpg" alt="Будинки для продажу">
+                    <h3>Будинки для продажу</h3>
+                    <a href="properties/houses.html" class="btn">Детальніше</a>
+                </div>
+                <div class="service-item">
+                    <img src="images/commercial.jpg" alt="Комерційна нерухомість">
+                    <h3>Комерційна нерухомість</h3>
+                    <a href="properties/commercial.html" class="btn">Детальніше</a>
+                </div>
+                <div class="service-item">
+                    <img src="images/land.jpg" alt="Земельні ділянки">
+                    <h3>Земельні ділянки</h3>
+                    <a href="properties/land.html" class="btn">Детальніше</a>
+                </div>
+                <div class="service-item">
+                    <img src="images/rent.jpg" alt="Оренда нерухомості">
+                    <h3>Оренда нерухомості</h3>
+                    <a href="properties/rentals.html" class="btn">Детальніше</a>
+                </div>
+                <div class="service-item">
+                    <img src="images/new-buildings.jpg" alt="Новобудови">
+                    <h3>Новобудови</h3>
+                    <a href="properties/new-buildings.html" class="btn">Детальніше</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="blog-carousel">
+            <h2>Наші останні статті</h2>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-item">
+                        <a href="blog/post-1.html"><img  src="images/blog1.jpg" alt="Blog 1"></a>
+                        <h2>Тенденції на ринку нерухомості 2024 року: Що потрібно знати покупцям?</h2>
+                        <p>Ринок нерухомості постійно змінюється, і 2024 рік не є винятком. Якщо ви шукаєте нове житло або плануєте інвестиції, важливо бути в курсі останніх тенденцій. У цій статті ми розглянемо головні тенденції на ринку нерухомості, які визначатимуть рік, що настав.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="blog/post-2.html"><img  src="images/blog2.jpg" alt="Blog 2"></a>
+                        <h2>Як вибрати квартиру для покупки в 2024 році</h2>
+                        <p>Покупка квартири — це важливе рішення, яке потребує ретельного підходу. Якщо ви плануєте придбати нерухомість у 2024 році, ось кілька порад, як вибрати найкращий варіант для себе.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="blog/post-3.html"><img  src="images/blog3.jpg" alt="Blog 3"> </a>
+                        <h2>Інвестиції в нерухомість: Як розпочати в 2024 році?</h2>
+                        <p>Інвестування в нерухомість може стати вигідним способом забезпечення пасивного доходу та збереження капіталу. У 2024 році ринок нерухомості пропонує багато можливостей для інвесторів, і в цій статті ми розглянемо, як почати інвестувати в нерухомість.</p>
+                    </div>
+                </div>
+                <div class="carousel-buttons">
+                    <button class="carousel-btn prev">
+                        <img src="images/arrow-left.png" alt="Previous" class="arrow-icon">
+                    </button>
+                    <button class="carousel-btn next">
+                        <img src="images/arrow-right.png" alt="Next" class="arrow-icon">
+                    </button>
+                </div>
+        </section>
+        
+        <section id="reviews">
+            <h2>Відгуки наших клієнтів</h2>
+            <div class="reviews-container">
+                <div class="review">
+                    <div class="review-header">
+                        <img src="images/review1.jpg" alt="Олена" class="review-photo">
+                        <div class="review-info">
+                            <h3>Олена</h3>
+                            <p>Клієнт</p>
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        <p>"Чудовий сервіс! Я дуже задоволена новою зачіскою! Спочатку я не знала, який стиль вибрати, але майстер допоміг вибрати ідеальний варіант для моїх волосся. Результат перевершив усі очікування!"</p>
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="review-header">
+                        <img src="images/review2.jpg" alt="Ірина" class="review-photo">
+                        <div class="review-info">
+                            <h3>Ірина</h3>
+                            <p>Клієнт</p>
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        <p>"Найкращий манікюр, який я коли-небудь робила! Весь процес був комфортним і безболісним, а результат справжній шедевр. Обов'язково прийду ще!"</p>
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="review-header">
+                        <img src="images/review3.jpg" alt="Катерина" class="review-photo">
+                        <div class="review-info">
+                            <h3>Катерина</h3>
+                            <p>Клієнт</p>
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        <p>"Професійний підхід і дуже комфортна атмосфера. Я завжди відчуваю себе як вдома, і майстри дійсно вкладають душу у свою роботу. Обов'язково повернуся!"</p>
+                    </div>
+                </div>
+            </div>
+            <button class="gallery-btn" onclick="window.location.href= 'reviews.html'">Переглянути відгуки</button>
+        </section>
+                 
+    </main>
+    
+
+    <footer id="footer">
+        <p>&copy; 2024 Beauty Salon. All rights reserved.</p>
+        <p>Адреса: вул. Пулюя 42, Львів, Україна</p>
+        
+        <ul class="social-links">
+            <li><a href="https://facebook.com" target="_blank"><img src="images/facebook-icon.png" alt="Facebook"></a></li>
+            <li><a href="https://instagram.com" target="_blank"><img src="images/instagram-icon.png" alt="Instagram"></a></li>
+            <li><a href="https://twitter.com" target="_blank"><img src="images/twitter-icon.png" alt="Twitter"></a></li>
+            <li><a href="https://viber.com" target="_blank"><img src="images/viber-icon.png" alt="Viber"></a></li>
+            <li><a href="https://telegram.org" target="_blank"><img src="images/telegram-icon.png" alt="Telegram"></a></li>
+        </ul>
+    
+        <!-- Кнопка для переходу на сторінку з детальною інформацією -->
+        <button class ="gallery-btn" onclick="window.location.href='contacts.html'">Більше деталей</button>
+    </footer>
+    <script src="JS/slider.js"></script>
+    <script src="JS/scripts.js"></script>
+</body>
+</html>
+
